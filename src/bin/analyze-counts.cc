@@ -43,7 +43,7 @@ int main(int argc, char *argv[]) {
         "e.g.: \n"
         " analyze-counts ark:1.ali prior.counts\n"
         " Show phone counts by:\n"
-        " ali-to-phone --per-frame=true ark:1.ali ark:- |"
+        " ali-to-phones --per-frame=true ark:1.ali ark:- |"
         " analyze-counts --verbose=1 ark:- - >/dev/null\n";
 
     ParseOptions po(usage);
